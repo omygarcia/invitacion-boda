@@ -1,5 +1,5 @@
 <template>
-    <div class="uk-padding beige oliva" style="background-image: url(../../public/img/padrinos.jpeg);background-size: 100%;background-repeat: no-repeat; min-height: 400px;">
+    <div class="uk-padding beige oliva" style="background-image: url(/img/padrinos.jpeg);background-size: 100%;background-repeat: no-repeat; min-height: 400px;">
         <!--<h3 class="dorado sombra uk-text-center fs-35">Con la bendición de Dios, Nuestros Padres y Padrinos</h3>
         <div class="uk-child-width-1-3@s uk-text-center" uk-grid>
             <div>
