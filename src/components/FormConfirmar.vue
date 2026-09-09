@@ -19,7 +19,7 @@ const URL_SCRIPT = import.meta.env.VITE_URL_SCRIPT;
 
 const nombre = ref('')
 const telefono = ref('')
-const asistencia = ref('')
+const asistencia = ref('1')
 const personas = ref('')
 const deseo = ref('')
 
@@ -80,7 +80,7 @@ async function confirmarAsistencia() {
     }
 
 
-    if (!personas.value) {
+    /*if (!personas.value) {
 
         mostrarMensaje(
             'Por favor selecciona el número de personas',
@@ -88,7 +88,7 @@ async function confirmarAsistencia() {
         )
 
         return
-    }
+    }*/
 
 
     enviando.value = true
@@ -106,7 +106,7 @@ async function confirmarAsistencia() {
 
         asistencia: asistencia.value,
 
-        personas: personas.value,
+        personas: /*personas.value*/"1",
 
         deseo: deseo.value.trim()
 
@@ -306,7 +306,7 @@ function mostrarMensaje(texto, tipo) {
             <!-- NUMERO DE PERSONAS -->
             <!-- ================================= -->
 
-            <div>
+            <div style="display: none;">
 
                 <h3>
                     Número de personas que asistirán:

@@ -76,7 +76,12 @@
                         </h2>
 
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.491959374585!2d-98.0733194!3d19.042095800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfeb13e20dedef%3A0x29c5a4868c28c8f2!2sTemplo%20San%20Mateo%20Ap%C3%B3stol!5e0!3m2!1ses-419!2smx!4v1788570596136!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-
+                        <button
+                            class="uk-button uk-button-default uk-modal-close"
+                            type="button"
+                        >
+                            CERRAR
+                        </button>
                     </div>
 
                 </div>
@@ -95,7 +100,7 @@
                 </h3>
 
                 <img
-                    src="/img/salon-miranda.jpg"
+                    src="/img/salon_miranda_ok.jpeg"
                     class="uk-width-1-1"
                 />
 

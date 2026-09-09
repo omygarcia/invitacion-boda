@@ -7,6 +7,6 @@ export const useBoletoStore = defineStore('boleto', {
     boleto:(state)=>state.boleto
   },
   actions:{
-    
+    //todo
   }
 })
