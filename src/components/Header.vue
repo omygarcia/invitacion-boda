@@ -4,8 +4,8 @@
 </script>
 <template>
     <div class="fondo1 text-white">
-            <div class="semi-circulo">
-                <h4 class="uk-text-center uk-text-uppercase text-white">Nos casamos</h4>
+            <div class="semi-circulo" style="align-items: flex-end;">
+                <!--<h4 class="uk-text-center uk-text-uppercase text-white">Nos casamos</h4>
                 <h2 class="uk-text-center f_Alex text-white fs-65">
                     Brenda <br />
                     <span class="dorado">&</span> <br />
@@ -18,7 +18,7 @@
                         <div><div class="lineas">OCTUBRE</div></div>
                     </div>
                     <div>2026</div> 
-                </div>
+                </div>-->
                 <Contador />
                 <MusicButton />
             </div>
