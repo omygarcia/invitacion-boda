@@ -7,8 +7,8 @@
 
     <div class="uk-padding uk-padding-remove-top fondo_boda1">
 
-        <h3 class="dorado sombra uk-text-center fs-35">
-            ¿Dónde y Cuándo?
+        <h3 class="dorado sombra uk-text-center">
+            PARA NOSOTROS ES MUY IMPORTANTE TU PRESENCIA EN LA CEREMONIA QUE SERA EN:
         </h3>
 
 
@@ -20,12 +20,12 @@
 
             <div>
 
-                <h3 class="uk-text-center">
+                <!--<h3 class="uk-text-center">
                     Ceremonia Religiosa
-                </h3>
+                </h3>-->
 
                 <img
-                    src="/img/san_mateo.jpg"
+                    src="/img/templo_san_mateo.jpeg"
                     class="uk-width-1-1"
                 />
 
@@ -100,7 +100,7 @@
                 </h3>
 
                 <img
-                    src="/img/salon_miranda_ok.jpeg"
+                    src="/img/salon_miranda2.jpeg"
                     class="uk-width-1-1"
                 />
 
@@ -184,7 +184,7 @@
     display:block;
     border-radius:0.5rem;
     padding:15px;
-    background-color:#b8860b;
+    background-color:#96a95f;
     color:white;
     font-size:16px;
     border:1px solid transparent;

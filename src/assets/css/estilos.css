@@ -92,8 +92,8 @@ body{
 }
 
 .lineas{
-    border-top: 2px solid goldenrod;
-    border-bottom: 2px solid goldenrod;
+    border-top: 2px solid #96a95f;
+    border-bottom: 2px solid #96a95f;
 }
 
 .miBoton{
@@ -133,7 +133,7 @@ h2{
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    border: 2px solid goldenrod;
+    border: 2px solid #96a95f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,11 +146,11 @@ h2{
 }
 
 .dorado {
-  background: linear-gradient(45deg, #d4af37, #ffd700, #b8860b);
+  background: #96a95f;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /*text-decoration: line-through;*/
-  text-decoration-color: goldenrod;
+  text-decoration-color: #96a95f;
   text-decoration-thickness: 2px;
 }
 
@@ -177,7 +177,7 @@ h2{
     position: fixed;
     bottom: 64%;
     right: 0;
-    background-color: #b8860b;
+    background-color: #96a95f;
     width: 50px;
     height: 50px;
     border-radius: 0.5rem 0 0 0.5rem;
@@ -274,7 +274,7 @@ h2{
 
 .formulario-boda input:focus,
 .formulario-boda textarea:focus {
-    border-color: #b08d57;
+    border-color: #96a95f;
 
     box-shadow: 0 0 0 3px rgba(176, 141, 87, 0.15);
 }
@@ -301,8 +301,8 @@ h2{
 
     background: linear-gradient(
         135deg,
-        #b08d57,
-        #d4af77
+        #68763f,
+        #96a95f
     );
 
     color: white;
