@@ -13,10 +13,10 @@ import Footer from '@/components/Footer.vue';
         <Header />
         <Lugar />
         <Itinerario />
-        <DressCode />
+        <!--<DressCode />-->
         <Padrinos />
         <FormConfirmar />
-        <MesaRegalos />
-        <Footer />
+        <!--<MesaRegalos />
+        <Footer />-->
     </div>
 </template>

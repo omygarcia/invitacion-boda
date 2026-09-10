@@ -18,7 +18,7 @@ const controlarAudio = () => {
 
 onMounted(() => {
     if (myaudio.value) {
-        myaudio.value.volume = 0.3;
+        myaudio.value.volume = 0.5;
     }
 });
 
