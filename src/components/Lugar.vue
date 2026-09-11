@@ -35,7 +35,7 @@
 
                 <p>
                     <b>Cuándo:</b>
-                    10 de Octubre de 2026 18:00 hrs.
+                    10 de Octubre de 2026 15:40 hrs.
                 </p>
 
                 <p>
@@ -110,7 +110,7 @@
 
                 <p>
                     <b>Cuándo:</b>
-                    10 de Octubre de 2026 18:00 hrs.
+                    10 de Octubre de 2026 17:45 hrs.
                 </p>
 
                 <p>

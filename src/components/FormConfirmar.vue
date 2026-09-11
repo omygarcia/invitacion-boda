@@ -24,6 +24,7 @@ const personas = ref('')
 const deseo = ref('')
 
 const mostrarForm = ref(true);
+const asistenciaResp = ref(false)
 
 
 // Estado del formulario
@@ -123,6 +124,7 @@ async function confirmarAsistencia() {
         let resp = await msg.json();
         console.log('regis',resp);
         useBoleto.$state.boleto = resp.datos;
+        asistenciaResp.value = useBoleto.$state.boleto.asistencia;
 
         mostrarMensaje(
             '¡Gracias por confirmar tu asistencia! ❤️',
@@ -452,12 +454,19 @@ function mostrarMensaje(texto, tipo) {
 
         </form>
         <div class="uk-text-center" v-else>
-            <p class="fs-25"><b>Gracias por confirmar</b></p>
-            <p class="fs-25">
-                <b>Nombre:</b> {{ useBoleto.$state.boleto.nombre }}<br />
-                <b>Invitados:</b> {{ useBoleto.$state.boleto.personas }}
-            </p>
-            <qrcode-vue :value="useBoleto.$state.boleto.nombre" :size="200" level="H" />
+            <div v-if="asistenciaResp == 'si'">
+                <p class="fs-25">
+                    <b>Gracias por confirmar</b>
+                    Los esperamos!
+                </p>
+                <p class="fs-25">
+                    <b>Nombre:</b> {{ useBoleto.$state.boleto.nombre }}<br />
+                </p>
+                <qrcode-vue :value="useBoleto.$state.boleto.nombre" :size="200" level="H" />
+            </div>
+            <div v-else>
+                <p class="fs-25">¡No te preocupes! Muchas gracias por avisar.</p>
+            </div>
         </div>
 
     </div>

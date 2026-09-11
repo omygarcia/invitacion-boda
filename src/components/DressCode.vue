@@ -4,7 +4,7 @@
         <h3 class="dorado sombra uk-text-center fs-25 uk-padding-remove-top">Formal / Elegante</h3>
         <div class="uk-child-width-1-2@s" uk-grid>
             <div>
-                <img src="/img/formal_mujer.png" class="image" />
+                <img src="/img/formal_mujer2.png" class="image" />
                 <p class="uk-text-center dorado sombra uk-text-center fs-2">
                     Mujeres: Vestido Largo Se reserva el color blanco para la novia
                 </p>
