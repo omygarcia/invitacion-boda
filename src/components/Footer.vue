@@ -1,9 +1,8 @@
 <template>
-     <div>
-        <!-- Agardecimiento-->
-        <div class="uk-padding uk-padding-remove-top beige" style="display: flex;flex-direction: column; justify-content: center;align-items: center; min-height: 70vh; background-image: url(img/fondo_boda_1.jpg);background-size: cover;background-position: center;">
-                <h4 class="text-white" >¡Los esperamos!</h4>
-                <h3 class="text-white">Brenda & Simón</h3>
+ 
+        <!-- Agardecimiento-->    
+        <div class="uk-padding uk-padding-remove-top oliva" style="background-image: url(/img/footer2.jpeg);background-size: 100%;background-repeat: no-repeat; min-height: 400px;">
+
+                
         </div>
-    </div>
 </template>

@@ -9,12 +9,12 @@
                     Mujeres: Vestido Largo Se reserva el color blanco para la novia
                 </p>
             </div>
-            <div>
+            <!--<div>
                 <img src="/img/formal_hombre.png" class="image" />
                 <p class="uk-text-center dorado sombra uk-text-center fs-2">
                     Hombres: Traje y Corbata
                 </p>
-            </div>
+            </div>-->
         </div>
     </div>
 </template>
